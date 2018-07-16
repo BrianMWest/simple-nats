@@ -83,7 +83,7 @@ encoded with `my_string.encode('utf8')`. A message can be sent with:
 
     nc.publish('my.topic', json.dumps({'foo': 'bar'}).encode('utf8'))
 
-## Execude a remote procedure call
+## Execute a remote procedure call
 
 One nice feature of NATS is the ability to execute RPCs and receive an asynchronous response.
 This is a feature not available in systems like Kafka, despite Kafka being superior in many other
